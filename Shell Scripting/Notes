@@ -1,0 +1,19 @@
+# Which shell
+SH - Bourne Shell
+KSH - Kern Shell
+CSH - C Shell
+Bash shell is the default in linux - SH+KSH+CSH
+BourneAgain Shell/ Born Again Shell
+
+Desktops - ZSH is widely used in MAC OS
+
+She - Bang
+In Linux Bash and SH are same
+rpm -qf /bin/sh  is same as rpm -qf /bin/bash
+#! is called She-Bang
+It denotes the path of interpreter
+It ensures the remaining code is executed with that interpreter
+ls
+ls -l
+ls -ltr
+Any line starting with # are comments, will be ignored by interpreter
