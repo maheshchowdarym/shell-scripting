@@ -1,7 +1,10 @@
 # shell-scripting
 Sample Line
-
-Hello world
-
-jaffa mahesh
-jaffa na jaffda mahesh
+1.She- Bang & Comments
+Print
+Variables
+Input from the user
+Quotes, Redirectors , Exit Status
+Conditions
+Loops
+SED
