@@ -8,7 +8,9 @@ SUCC() {
 }
 
 FAIL() {
-  echo -e "[FAIL] [{COMPONENT}] [$(date % "*%F %T")] $1 $2"
+  echo -e "[FAIL] [{COMPONENT}] [$(date % "*%F %T")] $1"
+  echo -e "\n Refer Log File: $LOG_FILE for more info"
+  exit 1
 }
 
 ## Verify if USER is ROOT or not
@@ -36,3 +38,18 @@ STAT() {
     ;;
   esac
 }
+
+DOWNLOAD_ARTIFACT() {
+  curl -s -o /temp/${COMPONENT}.zip $1 &>>$LOG_FILE
+  STAT $? "Download Artifacts"
+}
+
+
+
+
+
+
+
+
+
+
