@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Every command after its execution may or may not give output but it gives status in form of number.
+#This is called as exit status
+# Exit status ranges from 0-255
+#0 - Global success
+#1- 255 - Partial success/partial failure/failure
+# 0 -125 is left for users to use, either it can be a command or script
+# We can use those number with the help of exit command
+# Exit 0 -125 , It is user states
+# echo $? - gives exit status
+
+exit 1
